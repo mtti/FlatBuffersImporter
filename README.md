@@ -2,6 +2,8 @@
 
 A [FlatBuffers](https://google.github.io/flatbuffers/) importer for Unity. Automatically compiles FlatBuffers schema files (with the `.fbs` extension) to C#. Includes the FlatBuffers .NET library as well as schema compiler binaries for Windows, Linux and Mac (only Windows has been tested though).
 
+The included FlatBuffers library and schema compiler correspond to FlatBuffers release `2.0.0`.
+
 Based on [iBicha/FlatBuffersImporter](https://github.com/iBicha/FlatBuffersImporter).
 
 ## Usage
