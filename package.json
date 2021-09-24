@@ -1,0 +1,11 @@
+{
+  "name": "com.mattihiltunen.fbs",
+  "version": "0.0.1",
+  "displayName": "mtti.FlatBuffersImporter",
+  "description": "FlatBuffers importer for Unity",
+  "unity": "2020.3",
+  "author": {
+    "name": "Matti Hiltunen",
+    "url": "https://www.mattihiltunen.com"
+  }
+}
