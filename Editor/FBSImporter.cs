@@ -52,6 +52,7 @@ namespace mtti.FlatBuffersImporter.Editor
 
             if (process.ExitCode == 0)
             {
+                if (!File.Exists(sourcePath.Replace(".fbs", ".cs"))) return;
                 var generatedPath = ctx.assetPath.Replace(".fbs", ".cs");
                 AssetDatabase.ImportAsset(
                     generatedPath,

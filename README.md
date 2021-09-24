@@ -10,6 +10,8 @@ Based on [iBicha/FlatBuffersImporter](https://github.com/iBicha/FlatBuffersImpor
 
 After installing this package, simply create an `.fbs` file somewhere under your `Assets` directory and it will be automatically compiled into C# with the same name as the schema file, ie. `Assets/schema.fbs` will generate a `Assets/schema.cs` file. Not that the generated file is not removed automatically if you delete the schema file, and needs to be cleaned up manually.
 
+Note that the `.cs` file will only be generated if the schema compiler outputs anything. If the schema file is empty, for example, no C# file will be generated.
+
 Be sure to add the `FlatBuffers` assembly definition as a dependency to the assembly that the C# code was generated to.
 
 ## Installation
