@@ -40,7 +40,7 @@ namespace mtti.FlatBuffersImporter.Editor
             process.StartInfo = new ProcessStartInfo
             {
                 FileName = CompilerPath,
-                Arguments = $"--csharp --gen-onefile -o . \"{sourcePath}\"",
+                Arguments = $"--csharp --filename-suffix \"\" --gen-onefile -o . \"{sourcePath}\"",
                 UseShellExecute = false,
                 RedirectStandardError = true,
                 CreateNoWindow = true,
